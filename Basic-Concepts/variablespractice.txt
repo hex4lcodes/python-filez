@@ -1,0 +1,39 @@
+# variables and functions i guess
+
+x = 50
+
+print(x) 
+
+def boringFunction():
+    x = 100
+    print(x)
+
+boringFunction() #returns 100, the value of x
+
+print(x) #prints 50, x = 100 is unusable outside the function
+
+
+
+
+# string fun!
+
+testString = "Python Programming"
+
+print(testString)
+
+print(testString.upper()) #you have to print it to see results!
+
+
+
+# the old switcharoo!
+
+a = 5
+b = 10
+
+print(a)
+print(b)
+
+a,b = b,a  # reassigns a to b current value and b to a current value
+
+print(a)
+print (b)
