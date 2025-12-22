@@ -1,0 +1,46 @@
+#favorite color printer
+
+#defining and getting color
+
+print("What is your favorite color: ")
+
+favcolr = input('> ')
+
+#printing results
+
+print(f"Your favorite color is: {favcolr}")
+
+
+
+#math?? in this economy?? NAHHH
+
+#getting the two numbers - with a twist
+
+print("Enter the first number: ")
+firstnum = int(input('> '))
+
+print("Enter the second number: ")
+secondnum = int(input('> '))
+
+#additon
+sum = firstnum + secondnum
+
+#printing
+
+print(f"The sum of {firstnum} and {secondnum} is: {sum}")
+
+
+
+#Decades
+
+#getting the age
+
+print("How old are you right now: ")
+neow = int(input('> '))
+
+#decades of math
+decade = neow + 10
+
+#printing your fate
+
+print("In 10 years you will be: {}" .format(decade))
