@@ -1,0 +1,73 @@
+#remember to import math
+
+import math
+
+# factorials!!!
+
+print("Enter any number between 0 and 22: ")
+
+factor = input('> ')
+
+#reassgn factor as an int - its a string rn
+
+factor = int(factor)
+
+defector = math.factorial(factor)
+
+print("The factorial of {} is {}" .format(factor, defector))
+
+#when using .format() you dont need to use the comma after the text of the print statement
+
+#idea - allow any number but have an if statement to check to see if its between 0-22
+
+#.. then if it is return factorial, if not return invalid error
+
+
+
+
+
+import math
+import random
+
+#using random so import rando
+
+#weird dice roll method
+
+dice1 = math.floor(random.random() * 6)
+
+dice2 = math.floor(random.random() * 6)
+
+#printing the sum
+
+sum = dice1 + dice2
+
+print("Dice 1 was: {} dice: 2 was {}, the sum is: {}" .format(dice1, dice2, sum))
+
+
+
+
+
+#remember to import math
+
+import math
+
+#degrees --> radians
+print("Enter an angle value in degrees: ")
+
+degr = input('> ')
+
+degr = float(degr)
+
+rads = math.radians(degr)
+
+#trig functions!!
+
+soh = math.sin(rads)
+cah = math.cos(rads)
+toa = math.tan(rads)
+
+print("{:.8} in radians is {:.8} and the sine is: {:.8}, cosine is: {:.8}, tangent is: {:.8}" .format(degr, rads, soh, cah, toa))
+
+#rounded each value to 8 decimal places
+
+#make a radians to degrees calculator and vise versa --> if statements??

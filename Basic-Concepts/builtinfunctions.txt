@@ -1,0 +1,59 @@
+#ur zippers down
+
+names = ['John', 'Fin', 'Elliot', 'Olivia']
+scores = ['91', '50', '88', '90']
+
+#call me ZIPecho
+zippo = zip(names,scores)
+
+print(list(zippo))
+
+#allegedly code can get tired so u have to re-teach it....
+
+zippo = zip(names,scores)
+
+people, results = zip(*zippo)
+
+print(people)
+print(results)
+
+
+
+
+#HELLO WORLD!!
+
+mc = [16, 69, 100, 24]
+
+print(mc)
+mc_sqrd =  map(lambda e: e**2, mc) #every number in mc squared
+
+#lambda functions are done one time
+#map applies a lambda function to all items in an iterable
+
+print(list(mc_sqrd))
+#list() casts mc_sqrd as a list - similar to typcasting but for iterables
+
+
+
+
+#we're using ifstatements guysss
+
+#getting string 1
+
+print("Enter your first string of text, can be a word, phrase, or sentence: ")
+string1 = input('> ')
+
+#getting string 2
+
+print("Enter your second string of text, can be a word, phrase, or sentence: ")
+string2 = input('> ')
+
+#conditions
+
+if len(string1) > len(string2):
+    print(" '{}' was the longer string" .format(string1))
+elif len(string2) > len(string1):
+    print(" '{}' was the longer string" .format(string2))
+else:
+    print("Both strings are the same length")
+
