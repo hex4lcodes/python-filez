@@ -1,5 +1,10 @@
 This is a collection of all of my notes and projects created in Python. Big projects, small learning projects, they are all here. I use a number of resources. This will mostly be projects with reminders in the comments portion, not many note files, if any
-This README was written on 12/21/2025 and will be updated slowly but surely with links to each topic I touch and point of my learning process, so enjoy and check out the links to my other projects below
+This README was written on 12/21/2025 and will be updated slowly but surely with links to each topic I touch and point of my learning process, which will be linked below
+
+- Basics of Python: https://github.com/hex4lcodes/python-filez/tree/main/Basic-Concepts
+
+
+Check out some of my other project repos below:
 
 1. C programming: https://github.com/hex4lcodes/c-notes
 2. Web Development: https://github.com/hex4lcodes/web-development-progression/
