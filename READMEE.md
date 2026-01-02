@@ -8,5 +8,6 @@ Check out some of my other project repos below:
 
 1. C programming: https://github.com/hex4lcodes/c-notes
 2. Web Development: https://github.com/hex4lcodes/web-development-progression/
+3. Pascal: https://github.com/hex4lcodes/pascal-learningg
 
 **For right now each of these repos are for documentation purposes, please do not use or clone any part of this resource without permission**
