@@ -1,3 +1,5 @@
-This follows a mixed version of the 100 days of Python challenge by Beth Media which I used to supplement learning and practice
+This follows a mixed version of the 100 days of Python challenge by Beth Media which I used mostly for learning and practice
+All gaps so far were filled in by either Google, StackOverflow, or BroCode on Youtube
+
 
 Beth Media Python GitHub repo: https://github.com/Funmilayo24/100-Days-of-python-programming
