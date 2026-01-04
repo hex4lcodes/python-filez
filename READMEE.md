@@ -10,4 +10,6 @@ Check out some of my other project repos below:
 2. Web Development: https://github.com/hex4lcodes/web-development-progression/
 3. Pascal: https://github.com/hex4lcodes/pascal-learningg
 
-**For right now each of these repos are for documentation purposes, please do not use or clone any part of this resource without permission**
+***For right now each of these repos are for documentation purposes, please do not use or clone any part of this resource without permission***
+
+**NOTE: this repository nor any other of mine does not and will never contain or support AI generated content or code**
