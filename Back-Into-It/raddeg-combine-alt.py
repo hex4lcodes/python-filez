@@ -14,12 +14,12 @@ choice = input(">")
 #the if-statement to test conditions
 
 if choice == 'r' or choice == 'R':
-    if number <= 6.28319:
+    if number <= 6.28319: #2pi is approx that number
         print(math.radians(number))
     else:
         print("Invalid input, try again")
 elif choice == 'd' or choice == 'D':
-    if number <= 360:
+    if number <= 360: #360 degrees is a full circle
         print(math.degrees(number))
     else:
         print("Invalid input, try again")
