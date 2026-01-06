@@ -22,7 +22,7 @@ if password.isalnum() and not password.isdigit() and not password.isalpha(): #wi
 else:
     pass
 
-n = any(password.isdigit() for char in password)
+n = any(password.isdigit() for char in password) #will check to see if any character in password is uppercase
 
 if n:
     print("Strong password!")
