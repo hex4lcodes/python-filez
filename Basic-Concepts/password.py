@@ -18,10 +18,17 @@ else:
     pass
 
 if password.isalnum() and not password.isdigit() and not password.isalpha(): #will test to see if password is alphanumeric - not just letter / number only
+    pass
+else:
+    pass
+
+n = any(password.isdigit() for char in password)
+
+if n:
     print("Strong password!")
     exit()
 else:
-    pass
+    print("Password not strong! Must contain an uppercase letter")
 
 if password.isdigit():
     print("Password cannot contain only numbers, password must contain letters and numbers")
