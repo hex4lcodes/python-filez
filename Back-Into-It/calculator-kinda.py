@@ -33,8 +33,13 @@ elif operation == 's' or operation == 'S':
 elif operation == 'm' or operation == 'M':
     print(val1 * val2)
     exit()
-elif operation == 'g' or operation == 'G' and val2 != 0:
-    print(val1/val2)  
+elif operation == 'g' or operation == 'G' and val2 != 0: 
+    if val2 == 0 and operation == 'g' or operation == 'G':
+        print("Anything divided by 0 is 0, use your brain!")
+        exit()
+    else:
+        pass
+    print(val1/val2)
     exit()
 else:
     pass
