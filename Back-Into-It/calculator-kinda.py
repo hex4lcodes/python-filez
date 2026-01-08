@@ -26,33 +26,40 @@ operation = input(">")
 
 if operation == 'a' or operation == 'A':
     print(val1 + val2)
+    exit()
 elif operation == 's' or operation == 'S':
     print(val1 - val2)
+    exit()
 elif operation == 'm' or operation == 'M':
     print(val1 * val2)
-elif operation == 'g' or operation == 'G':
+    exit()
+elif operation == 'g' or operation == 'G' and val2 != 0:
     print(val1/val2)  
+    exit()
 else:
     pass
 
-exit()
+
 
 
 
 if operation == 'd' or operation == 'D':
     print(math.degrees(val1))
-    exit()
+    pass
     if  val2 != 0:
         print(math.degrees(val2))
+        exit()
     else:
         pass
 elif operation == 'r' or operation == 'R':
     print(math.radians(val1))
-    exit()
+    pass
 
     if  val2 != 0:
         print(math.radians(val2))
+        exit()
     else:
         pass
 else:
     print("Something went wrong, try again")
+
