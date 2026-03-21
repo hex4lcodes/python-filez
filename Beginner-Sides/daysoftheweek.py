@@ -5,10 +5,10 @@ import datetime
 print("Enter the year of the random date in the format yyyy: ")
 yeaur = int(input('>'))
 
-print("Enter the year of the random date in the format mm: ")
+print("Enter the month of the random date in the format mm: ")
 month = int(input('>'))
 
-print("Enter the year of the random date in the format dd: ")
+print("Enter the day of the random date in the format dd: ")
 day = int(input('>'))
 
 #formatting the date
