@@ -3,7 +3,7 @@
 import datetime
 
 #getting the birthdate
-print("Enter the year you were born in the format mm: ")
+print("Enter the year you were born in the format yyyy: ")
 birth_year = int(input('>'))
 
 print("Enter the month you were born in the format mm: ")
